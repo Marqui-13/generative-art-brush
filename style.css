@@ -18,8 +18,7 @@
     color: black;
     font-size: 15px;
     text-shadow: 1px 1px 1px #737373; 
-    background: rgba(0,0,0,0.4);
-  }
+}
   footer {
     left: 0;
     bottom: 0;
@@ -28,16 +27,19 @@
     height: 30px;
     line-height: 30px;
     padding-right: 20px;
+    border-top: 2px solid black;
+    border-radius: 13px;
   }
   footer a{
     color: black;
   }
   article {
+    background: rgba(0,0,0,0.4);
     z-index: 100;
     width: 50%;
     max-width: 350px;
     font-size: 15px;
     color: black;
     padding: 20px;
-    border-radius: 0 0 5px 0;
+    border-radius: 13px;
   }
